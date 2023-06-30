@@ -1,4 +1,4 @@
-package OldMaid;
+package oldMaid;
 
 import lesson8.Card;
 import lesson8.Hand;

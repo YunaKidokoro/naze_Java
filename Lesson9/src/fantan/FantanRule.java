@@ -44,7 +44,7 @@ public class FantanRule implements Rule{
 			//見てるカードが１の場合
 			if(lookingNum == 1) {
 				//左隣のカードは13になる
-				leftNum = 13;
+				leftNum = Card.CARD_NUM;
 			}
 			//見てるカードが13の場合
 			else if(lookingNum == 13) {

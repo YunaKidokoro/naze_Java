@@ -6,7 +6,7 @@ import lesson8.Hand;
  * @author yuna
  *
  */
-public class test {
+public class Test {
 
 	/**
 	 * 七並べのテストクラス

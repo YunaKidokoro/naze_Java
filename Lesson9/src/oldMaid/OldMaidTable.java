@@ -1,4 +1,4 @@
-package OldMaid;
+package oldMaid;
 
 import java.util.ArrayList;
 
