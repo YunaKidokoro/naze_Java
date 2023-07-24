@@ -54,9 +54,9 @@ public class FantanPlayer extends Player{
 			((FantanMaster)masterPlayer).pass((FantanPlayer) nextPlayer);
 			if(passCount>FantanMaster.PASSABLE_LIMIT) {
 				//残りの手札の枚数を数える
-				int NumberOfLeaveCard = myHand.getNumberOfCards();
+				int numberOfLeaveCard = myHand.getNumberOfCards();
 				//持っていたカードをすべてテーブルに置く
-				for(int index=0 ; index<NumberOfLeaveCard ; index++) {
+				for(int index=0 ; index<numberOfLeaveCard ; index++) {
 					//手札からカードを一枚引く
 					Card[] leaveCards = {myHand.pickCard(0)};
 					//引いたカードを置く
